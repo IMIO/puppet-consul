@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'puppet/parameter/boolean'
 
 Puppet::Type.newtype(:consul_prepared_query) do

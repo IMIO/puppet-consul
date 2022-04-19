@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # consul_version.rb
 
 Facter.add(:consul_version) do

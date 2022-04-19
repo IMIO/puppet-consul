@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Puppet::Type.newtype(:consul_acl) do
   desc <<-'EOD'
   Manage a consul token and its ACLs.

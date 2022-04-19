@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Puppet::Type.newtype(:consul_policy) do
   desc <<-'EOD'
   Manages a Consul ACL policy
