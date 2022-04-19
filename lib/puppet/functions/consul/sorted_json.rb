@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'json'
 
 Puppet::Functions.create_function(:'consul::sorted_json') do

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Puppet::Type.newtype(:consul_key_value) do
   desc <<-'EOD'
   Manage a consul key value object.

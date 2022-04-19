@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Puppet::Type.newtype(:consul_token) do
   desc <<-'EOD'
   Manages a v2 Consul token

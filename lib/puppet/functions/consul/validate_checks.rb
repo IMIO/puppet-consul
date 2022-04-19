@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Puppet::Functions.create_function(:'consul::validate_checks') do
   local_types do
     type 'HashOrArray = Variant[Hash,Array]'

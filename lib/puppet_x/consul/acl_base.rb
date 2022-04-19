@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'puppet_x'
 require 'json'
 require 'net/http'
